@@ -74,6 +74,11 @@ return [
 
     'brand' => env('APP_NAME'),
 
+    // do not use the config method below but rather env method if the img is path is stored in a file.
+    // To use the Logo set branch to null
+    // 'brand_logo' => "", 
+    // 'brand_logo_width' => "40px",
+
     /*
     |--------------------------------------------------------------------------
     | Auth
